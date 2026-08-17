@@ -1,6 +1,8 @@
 # Silver Skills
 
-`bingliSilver` 维护的可复用 Agent Skills。目前包含会话知识沉淀和知识文档归并两个配套技能。
+`BingliSilver` 维护的可复用 Agent Skills。目前包含会话知识沉淀和知识文档归并两个配套技能。
+
+Repository: [github.com/BingliSilver/silver-skills](https://github.com/BingliSilver/silver-skills)
 
 ## Skills
 
@@ -16,19 +18,19 @@
 交互式选择技能和目标 Agent：
 
 ```powershell
-npx skills@latest add bingliSilver/silver-skills
+npx skills@latest add BingliSilver/silver-skills
 ```
 
 将两个技能全局安装到 Codex：
 
 ```powershell
-npx skills@latest add bingliSilver/silver-skills --global --agent codex --skill learning-summary knowledge-consolidate
+npx skills@latest add BingliSilver/silver-skills --global --agent codex --skill learning-summary knowledge-consolidate
 ```
 
 只安装单个技能：
 
 ```powershell
-npx skills@latest add bingliSilver/silver-skills --global --agent codex --skill learning-summary
+npx skills@latest add BingliSilver/silver-skills --global --agent codex --skill learning-summary
 ```
 
 ## Local Validation
