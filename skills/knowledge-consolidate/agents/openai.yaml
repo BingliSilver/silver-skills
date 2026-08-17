@@ -1,0 +1,4 @@
+interface:
+  display_name: "归并知识文档"
+  short_description: "将零散知识 Markdown 归并为单篇高密度文档并支持增量追加"
+  default_prompt: "使用 $knowledge-consolidate 归并目标文件夹中的零散知识文档，并先询问我是追加到已有文档还是新建文档。"
