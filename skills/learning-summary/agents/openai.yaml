@@ -1,4 +1,4 @@
 interface:
   display_name: "提炼会话知识笔记"
-  short_description: "将技术会话提炼为通用 Markdown 知识文档并优先增量完善已有内容"
-  default_prompt: "使用 $learning-summary 将当前技术会话提炼为通用知识文档；有项目时写入 ./learning/，无项目时先询问目标文件夹，并优先增量完善已有同主题文档。"
+  short_description: "将技术会话按主题提炼为一篇或多篇通用 Markdown 知识文档"
+  default_prompt: "使用 $learning-summary 将当前技术会话按知识边界提炼为一篇或多篇通用知识文档；有项目时写入 ./learning/，无项目时先询问目标文件夹，并优先增量完善已有同主题文档。"
