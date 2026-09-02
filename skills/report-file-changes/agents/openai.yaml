@@ -1,0 +1,4 @@
+interface:
+  display_name: "报告会话文件变更"
+  short_description: "跟踪本地写入任务新增或变更的文件并在完成时报告绝对路径"
+  default_prompt: "使用 $report-file-changes 跟踪当前任务实际新增或变更的全部文件，并在完成时按规则报告绝对路径清单。"
